@@ -1,23 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <math.h>
 int main()
 {
-     float x1,x2,y1,y2;
-
-    scanf(" %f%f%f%f",&x1,&y1,&x2,&y2);
-
-  if (x1==x2)
-
-  printf("Vertical");
-
-  else if(y1==y2)
-printf("Horizontal");
-
-else
-
-    printf("Try again");
+    int a;
+    scanf("%d",&a);
+    for(int i=1;i<=(2*a);i+=2)
+    {
 
 
-return 0;
+for(int j=i;j<2*a;j+=2)
+
+
+
+        printf("%d",j);
+
+printf("\n");
+
+    }
+
+
+
+
+    return 0;
 }
